@@ -21,6 +21,7 @@
 		094510E81974EAC400BF1CE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094510CA1974EAC400BF1CE4 /* UIKit.framework */; };
 		094510F01974EAC400BF1CE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 094510EE1974EAC400BF1CE4 /* InfoPlist.strings */; };
 		094510F21974EAC400BF1CE4 /* Race_to_The_TopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 094510F11974EAC400BF1CE4 /* Race_to_The_TopTests.m */; };
+		094510FD1974EB9600BF1CE4 /* RTSpaceShipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 094510FC1974EB9600BF1CE4 /* RTSpaceShipView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		094510ED1974EAC400BF1CE4 /* Race to The TopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Race to The TopTests-Info.plist"; sourceTree = "<group>"; };
 		094510EF1974EAC400BF1CE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		094510F11974EAC400BF1CE4 /* Race_to_The_TopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Race_to_The_TopTests.m; sourceTree = "<group>"; };
+		094510FB1974EB9600BF1CE4 /* RTSpaceShipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpaceShipView.h; sourceTree = "<group>"; };
+		094510FC1974EB9600BF1CE4 /* RTSpaceShipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpaceShipView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		094510CC1974EAC400BF1CE4 /* Race to The Top */ = {
 			isa = PBXGroup;
 			children = (
+				094510FB1974EB9600BF1CE4 /* RTSpaceShipView.h */,
+				094510FC1974EB9600BF1CE4 /* RTSpaceShipView.m */,
 				094510D51974EAC400BF1CE4 /* VWAppDelegate.h */,
 				094510D61974EAC400BF1CE4 /* VWAppDelegate.m */,
 				094510D81974EAC400BF1CE4 /* Main.storyboard */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				094510DD1974EAC400BF1CE4 /* VWViewController.m in Sources */,
+				094510FD1974EB9600BF1CE4 /* RTSpaceShipView.m in Sources */,
 				094510D31974EAC400BF1CE4 /* main.m in Sources */,
 				094510D71974EAC400BF1CE4 /* VWAppDelegate.m in Sources */,
 			);
