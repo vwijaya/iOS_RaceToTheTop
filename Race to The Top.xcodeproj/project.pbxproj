@@ -13,7 +13,7 @@
 		094510D11974EAC400BF1CE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 094510CF1974EAC400BF1CE4 /* InfoPlist.strings */; };
 		094510D31974EAC400BF1CE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 094510D21974EAC400BF1CE4 /* main.m */; };
 		094510D71974EAC400BF1CE4 /* VWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 094510D61974EAC400BF1CE4 /* VWAppDelegate.m */; };
-		094510DA1974EAC400BF1CE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 094510D81974EAC400BF1CE4 /* Main.storyboard */; };
+		094510DA1974EAC400BF1CE4 /* Main.iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 094510D81974EAC400BF1CE4 /* Main.iPhone.storyboard */; };
 		094510DD1974EAC400BF1CE4 /* VWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094510DC1974EAC400BF1CE4 /* VWViewController.m */; };
 		094510DF1974EAC400BF1CE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 094510DE1974EAC400BF1CE4 /* Images.xcassets */; };
 		094510E61974EAC400BF1CE4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094510E51974EAC400BF1CE4 /* XCTest.framework */; };
@@ -22,6 +22,7 @@
 		094510F01974EAC400BF1CE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 094510EE1974EAC400BF1CE4 /* InfoPlist.strings */; };
 		094510F21974EAC400BF1CE4 /* Race_to_The_TopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 094510F11974EAC400BF1CE4 /* Race_to_The_TopTests.m */; };
 		094510FD1974EB9600BF1CE4 /* RTSpaceShipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 094510FC1974EB9600BF1CE4 /* RTSpaceShipView.m */; };
+		09451143197500A500BF1CE4 /* Main.iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09451142197500A500BF1CE4 /* Main.iPad.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +46,7 @@
 		094510D41974EAC400BF1CE4 /* Race to The Top-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Race to The Top-Prefix.pch"; sourceTree = "<group>"; };
 		094510D51974EAC400BF1CE4 /* VWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VWAppDelegate.h; sourceTree = "<group>"; };
 		094510D61974EAC400BF1CE4 /* VWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWAppDelegate.m; sourceTree = "<group>"; };
-		094510D91974EAC400BF1CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		094510D91974EAC400BF1CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.iPhone.storyboard; sourceTree = "<group>"; };
 		094510DB1974EAC400BF1CE4 /* VWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VWViewController.h; sourceTree = "<group>"; };
 		094510DC1974EAC400BF1CE4 /* VWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWViewController.m; sourceTree = "<group>"; };
 		094510DE1974EAC400BF1CE4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -56,6 +57,7 @@
 		094510F11974EAC400BF1CE4 /* Race_to_The_TopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Race_to_The_TopTests.m; sourceTree = "<group>"; };
 		094510FB1974EB9600BF1CE4 /* RTSpaceShipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpaceShipView.h; sourceTree = "<group>"; };
 		094510FC1974EB9600BF1CE4 /* RTSpaceShipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpaceShipView.m; sourceTree = "<group>"; };
+		09451142197500A500BF1CE4 /* Main.iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.iPad.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +121,8 @@
 				094510FC1974EB9600BF1CE4 /* RTSpaceShipView.m */,
 				094510D51974EAC400BF1CE4 /* VWAppDelegate.h */,
 				094510D61974EAC400BF1CE4 /* VWAppDelegate.m */,
-				094510D81974EAC400BF1CE4 /* Main.storyboard */,
+				094510D81974EAC400BF1CE4 /* Main.iPhone.storyboard */,
+				09451142197500A500BF1CE4 /* Main.iPad.storyboard */,
 				094510DB1974EAC400BF1CE4 /* VWViewController.h */,
 				094510DC1974EAC400BF1CE4 /* VWViewController.m */,
 				094510DE1974EAC400BF1CE4 /* Images.xcassets */,
@@ -234,9 +237,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09451143197500A500BF1CE4 /* Main.iPad.storyboard in Resources */,
 				094510DF1974EAC400BF1CE4 /* Images.xcassets in Resources */,
 				094510D11974EAC400BF1CE4 /* InfoPlist.strings in Resources */,
-				094510DA1974EAC400BF1CE4 /* Main.storyboard in Resources */,
+				094510DA1974EAC400BF1CE4 /* Main.iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,12 +293,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		094510D81974EAC400BF1CE4 /* Main.storyboard */ = {
+		094510D81974EAC400BF1CE4 /* Main.iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				094510D91974EAC400BF1CE4 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Main.iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 		094510EE1974EAC400BF1CE4 /* InfoPlist.strings */ = {
@@ -386,7 +390,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Race to The Top/Race to The Top-Prefix.pch";
 				INFOPLIST_FILE = "Race to The Top/Race to The Top-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -399,7 +405,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Race to The Top/Race to The Top-Prefix.pch";
 				INFOPLIST_FILE = "Race to The Top/Race to The Top-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -463,6 +471,7 @@
 				094510F71974EAC400BF1CE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		094510F81974EAC400BF1CE4 /* Build configuration list for PBXNativeTarget "Race to The TopTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +480,7 @@
 				094510FA1974EAC400BF1CE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
